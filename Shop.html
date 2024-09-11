@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Shop</title>
+    <link rel="stylesheet" href="Shop.css">
+    <link rel="icon" type="image/x-icon" href="Asset/burger.png">
+</head>
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
+
+<body>
+    <div class="dashboard">
+        <div class="center">
+            <h2>Food Shop</h2>
+        </div>
+    </div>
+    <div id="home" style="height: 0; margin: 0; padding: 0;"></div>
+
+    <h1 class="outlined-text">Choose Your <br>Food</h1>
+    <div class="container">
+        <ul>
+            <li>
+                <a href="Payment.html" onclick="selectItem('Nugget')" target="_parent">
+                    <img src="Asset\Geda.png" class="resize-img" alt="Image 4">
+                    <div>Nugget</div>
+                </a>
+            </li>
+            <li>
+                <a href="Payment.html" onclick="selectItem('Pizza')" target="_blank">
+                    <img src="Asset\pizza.jpg" class="resize-img2" alt="Image 4">
+                    <div>Pizza</div>
+                </a>
+            </li>
+            <li>
+                <a href="Payment.html" onclick="selectItem('Burger')" target="_blank">
+                    <img src="Asset\Burger22.png" class="resize-img2" alt="Image 4">
+                    <div>Burger</div>
+                </a>
+            </li>
+            <li>
+                <a href="Payment.html" onclick="selectItem('Fries')" target="_blank">
+                    <img src="Asset\fries.png" class="resize-img2" alt="Image 4">
+                    <div>Fries</div>
+                </a>
+            </li>
+            <li>
+                <a href="Payment.html" onclick="selectItem('Cola')" target="_blank">
+                    <img src="Asset\coke.png" class="resize-img3" alt="Image 4">
+                    <div>Cola Float</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script src="ShopNPayment.js"></script>
+</body>
+
+</html>
